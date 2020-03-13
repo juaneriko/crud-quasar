@@ -46,7 +46,10 @@ module.exports = function (ctx) {
       directives: [],
 
       // Quasar plugins
-      plugins: ['Dialog', 'Notify']
+      plugins: ['Dialog', 'Notify', 'QCard', 'QCardSection', 'QCardActions'],
+
+      // Flex Addons
+      cssAddon: true
     },
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie

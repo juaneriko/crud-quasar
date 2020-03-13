@@ -78,6 +78,16 @@
               </q-item-section>
             </q-item>
 
+            <q-item to="/login" exact clickable v-ripple>
+              <q-item-section avatar>
+                <q-icon name="folder" />
+              </q-item-section>
+
+              <q-item-section>
+                Login
+              </q-item-section>
+            </q-item>
+
             <!-- <q-item active clickable v-ripple>
               <q-item-section avatar>
                 <q-icon name="star" />
